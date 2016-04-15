@@ -1,4 +1,11 @@
-module EntryIO(EntryIO, entries, outH, openEntryIO, punchInIO, punchOutIO) where
+module EntryIO(
+  EntryIO,
+  entries,
+  outH,
+  openEntryIO,
+  punchInIO,
+  punchOutIO
+) where
 
 import Data.Time.LocalTime (getZonedTime, ZonedTime)
 import EntryLog

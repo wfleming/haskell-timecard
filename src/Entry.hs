@@ -1,5 +1,11 @@
 {-# LANGUAGE OverloadedStrings #-}
-module Entry (Entry(..), Hours, show, duration, parseEntry) where
+module Entry (
+  Entry(..),
+  Hours,
+  duration,
+  parseEntry,
+  show,
+) where
 
 import Data.Time.Clock (diffUTCTime)
 import Data.Time.Format (formatTime, defaultTimeLocale, parseTimeM)

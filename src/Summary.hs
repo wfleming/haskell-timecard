@@ -1,4 +1,8 @@
-module Summary (summarizeEntries, showSummary, showSummaryCSV) where
+module Summary (
+  summarizeEntries,
+  showSummary,
+  showSummaryCSV
+) where
 
 import Data.List (find, nub)
 import Data.Time.Calendar (Day)
